@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    width: 100%;
+    height: 100px;
+}
+
+.middle {
+    width: 1660px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.cover {
+    width: 100%;
+    height: 960px;
+    background: url('img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 110px;
+    height: 110px;
+    margin-top: 15px;
+}
+
+.top_ul {
+    list-style: none;
+    line-height: 100px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.top_li {
+    float: left;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding: 0 10px;
+    font-size: 25px;
+}
+
+.top_li_select {
+    color: #E9BD8C;
+}
+
+.content_block {
+    width: 600px;
+    height: 500px;
+    margin-top: 170px;
+}
+
+.content_block_description {
+    color: #E9BD8C;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.content_block_title {
+    color: white;
+    font-family: "Great Vibes";
+    font-size: 90px;
+    margin-top: 20px;
+}
+
+.content_block_button {
+    background: #933C24;
+    padding: 20px 42px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.content_block_a {
+    color: #E9BD8C;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 35px;
+}
+
+.title_h2 {
+    font-family: "Great Vibes";
+    text-align: center;
+    width: 100%;
+    font-size: 80px;
+    padding: 70px 0;
+    font-weight: 600;
+}
+
+.top_products {
+    width: 1660px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 68px;
+    grid-row-gap: 68px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top_product {
+    background: url('img/background_block.png');
+    background-size: cover;
+    width: 508px;
+    height: 520px;
+    border-radius: 10px;
+}
+
+.top_product_img {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_product_img img {
+    width: 60%;
+}
+
+.top_product_description {
+    width: 100%;
+    height: 40%;
+}
+
+.top_product_middle {
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.top_product_price {
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 27px;
+    margin-top: 20px;
+    font-weight: 700;
+    float: left;
+}
+
+.top_product_info {
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    float: right;
+}
+
+.top_product_title {
+    float: left;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    width: 200px;
+}
+
+.top_product_1 {
+    width: 100%;
+    height: 50%;
+}
+
+.top_product_2 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.top_product_add {
+    background: #933C24;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border: 0;
+    font-size: 22px;
+    padding: 15px 15px;
+    border-radius: 10px;
+    float: right;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background: url('img/banner.png');
+    background-size: cover;
+    margin-top: 150px;
+}
+
+.banner_title {
+    color: #933C24;
+    font-size: 100px;
+    font-family: "Great Vibes";
+    text-align: center;
+    line-height: 100px;
+    font-weight: 700;
+    padding-top: 70px;
+}
+
+.banner_description {
+    font-size: 25px;
+    font-family: "Montserrat";
+    text-align: center;
+    color: #5D5D5D;
+    margin-top: 50px;
+}
+
+.banner_button {
+    background: #933C24;
+    color: white;
+    font-size: 25px;
+    border: 0;
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0 auto;
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 10px;
+}
+
+.menu_li {
+    float: left;
+    font-size: 25px;
+    font-family: "Montserrat";
+    color: #5D5D5D;
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+.menu_li_select {
+    border-bottom: 3px solid #933C24;
+    border-radius: 15px;
+}
+
+.menus {
+    width: 1660px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 68px;
+    grid-row-gap: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.menus_block {
+    width: 500px;
+    height: 500px;
+    background: red;
+    border-radius: 15px;
+}
+
+.menus_block_img {
+    width: 100%;
+    height: 100%;
+}
+
+.about {
+    width: 100%;
+    height: 600px;
+    background: url('img/banner1.png');
+    background-size: cover;
+    margin-top: 150px;
+}
